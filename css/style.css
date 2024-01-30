@@ -1,0 +1,71 @@
+
+
+.container{
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    width: 800px;
+    margin:auto;
+    margin-top: 100px;
+    border: 1px solid;
+    display: flex;
+    border-radius: 16px;
+    padding-left: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(235, 18%, 26%);
+}
+
+h1{
+    font-weight: 700;
+    color: hsl(235, 18%, 26%);
+    margin-top: 35px;
+}
+
+
+.form, .img{
+    flex-grow: 1;
+}
+
+.feature__item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button{
+    margin-top: 10px;
+    width: 350px;
+    height: 40px;
+    border-radius: 6px;
+    background-color:hsl(234, 29%, 20%) ;
+    color: white;
+}
+
+form{
+    margin-top: 20px;
+}
+
+#email{
+    width: 330px;
+    height: 20px;
+    border-radius: 6px;
+    border: 1px solid hsl(231,7%,60%);
+    padding: 10px;
+}
+
+label{
+    font-size: smaller;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
